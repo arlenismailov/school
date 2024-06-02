@@ -45,10 +45,6 @@ class Relation(models.Model):
     )
 
 
-#class What_class(models.Model):
- #   title = models.CharField(max_length=5)
-
-
 class Teacher(models.Model):
     name = models.CharField(max_length=30)
     surname = models.CharField(max_length=30)
